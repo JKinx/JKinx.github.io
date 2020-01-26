@@ -96,7 +96,7 @@ lectures:
     readings:
     hw: T1 (Regression) released
   - topic: Regression #Jan 30
-    subtopic: Linear Regression 1
+    subtopic: Linear Regression
     section:
     readings: 
     hw:
@@ -109,12 +109,12 @@ lectures:
     type:
   - topic: # section 1
     subtopic:
-    section: 1. Linear Reg
+    section: 1. Linear Regregression
     readings:
     hw:
     type: 'sec'
   - topic: #Feb 4
-    subtopic: Prob. Reg. 
+    subtopic: Prob. Regression 
     section:
     readings: 
     hw: 
@@ -155,12 +155,12 @@ lectures:
     type: 
   - topic: # section 3
     subtopic:
-    section: 3. Bayes LR, Lin. Class. (
+    section: 3. Bayes LR, Lin. Classification
     readings:
     hw:
     type: 'sec'
-  - topic: #Feb 18
-    subtopic: President's Day
+  - topic: President's Day #Feb 18
+    subtopic: No class
     readings:
     hw: 
   - topic: 
@@ -176,7 +176,7 @@ lectures:
     type: 'hw'
   - topic: # section 4
     subtopic:
-    section: 4. Prob. Class / NN
+    section: 4. Prob. Classsification / NN
     readings:
     demos:
     hw: 

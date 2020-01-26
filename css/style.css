@@ -107,3 +107,25 @@ p.link a:hover, ul.lists li a:hover {
     border-bottom: 1px solid #000; }
 p.link a:inactive, ul.lists li.inactive {
     color: #ccc; }
+
+.table .sec {
+    background-color: #F1F1FF;
+}
+
+.table .hw {
+    background-color: #FFF1F1;
+}
+
+.table .exam {
+    background-color: #DDCCFF;
+}
+
+.table th {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.table td {
+    font-size: 0.75em;
+    font-weight: 300;
+}

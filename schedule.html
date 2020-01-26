@@ -27,19 +27,516 @@ weight: 0
 </section>
 <section class="main-container text">
     <div class="main">
+<!--        <table class="table">-->
+<!--            <tr><th>Date</th> <th>Topic</th> <th>Subtopic</th> <th>Section</th> <th>Readings</th><th>Assignment </th></tr>-->
+<!--            {% for lecture in site.data.all.lectures %}-->
+<!--            <tr class = {{lecture.type|default("",true)}}>-->
+<!--                <td> {{site.data.all.dates[forloop.index]}} </td>-->
+<!--                <td> {{lecture.topic | default("",true)}} </td>-->
+<!--                <td> {{lecture.subtopic|default("", true)}}</td>-->
+<!--                <td> {{lecture.section|default("", true)}}</td>-->
+<!--                <td> {{lecture.readings|default("", true)}}</td>-->
+<!--                <td> {{lecture.hw | default("",true)}}</td>-->
+<!--            </tr>-->
+<!--            {% endfor %}-->
+<!--        </table>-->
         <table class="table">
-            <tr><th>Date</th> <th>Topic</th> <th>Subtopic</th> <th>Section</th> <th>Readings</th><th>Assignment </th></tr>
-            {% for lecture in site.data.all.lectures %}
-            <tr id = {{lecture.type|default("",true)}}>
-                <td> {{site.data.all.dates[forloop.index]}} </td>
-                <td> {{lecture.topic | default("",true)}} </td>
-                <td> {{lecture.subtopic|default("", true)}}</td>
-                <td> {{lecture.section|default("", true)}}</td>
-                <td> {{lecture.readings|default("", true)}}</td>
-                <td> {{lecture.hw | default("",true)}}</td>
+            <tbody>
+            <tr>
+                <th>Date</th>
+                <th>Topic</th>
+                <th>Subtopic</th>
+                <th>Section</th>
+                <th>Readings</th>
+                <th>Assignment</th></tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 0. Math Review</td>
+                <td> </td>
+                <td> </td>
             </tr>
-            {% endfor %}
-        </table>
+
+            <tr class="">
+                <td> Jan. 27 (M) </td>
+                <td> Overview </td>
+                <td> Intro</td>
+                <td> </td>
+                <td> </td>
+                <td> T1 (Regression) released</td>
+            </tr>
+
+            <tr class="">
+                <td> Jan. 29 (W) </td>
+                <td> Regression </td>
+                <td> Linear Regression 1</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Jan. 31 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 1. Linear Reg</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 3 (M) </td>
+                <td>  </td>
+                <td> Prob. Reg.</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 5 (W) </td>
+                <td> Classification </td>
+                <td> Linear Classification</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Feb. 7 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T1 (Regression) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 2. Model Selection/Bayes</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 10 (M) </td>
+                <td>  </td>
+                <td> Prob. Classification</td>
+                <td> </td>
+                <td> </td>
+                <td> T2 (Classification) released</td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 12 (W) </td>
+                <td> Model Selection </td>
+                <td> Model Selection - Frequentist</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 14 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 3. Bayes LR, Lin. Class.</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 17 (M) </td>
+                <td>  </td>
+                <td> President's Day</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 19 (W) </td>
+                <td>  </td>
+                <td> Model Selection - Bayesian</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Feb. 21 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T2 (Classification) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 4. Prob. Class / NN</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 24 (M) </td>
+                <td> Function Class </td>
+                <td> Neural Net 1</td>
+                <td> </td>
+                <td> </td>
+                <td> T3 (Practical Supervised Learning) released</td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 26 (W) </td>
+                <td>  </td>
+                <td> Neural Net 2</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Feb. 28 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> Mclassterm 1 Review</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 2 (M) </td>
+                <td> Objective </td>
+                <td> Max-Margin</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 4 (W) </td>
+                <td>  </td>
+                <td> SVMs</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Mar. 6 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T3 (Practical Supervised Learning) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 5. Margin-based / SVMs</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 9 (M) </td>
+                <td>  </td>
+                <td> Ethics in ML</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="exam">
+                <td> Mar. 11 (W) </td>
+                <td>  </td>
+                <td> Midterm 1</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 13 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 16 (M) </td>
+                <td> Spring Break </td>
+                <td> No class</td>
+                <td> </td>
+                <td> </td>
+                <td> T4 (SVMs and Ethics released, only needs 1 wk)</td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 18 (W) </td>
+                <td>  </td>
+                <td> No class</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 20 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 7. K-means / HAC</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 23 (M) </td>
+                <td> Unsupervised Learning </td>
+                <td> Clustering</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 25 (W) </td>
+                <td>  </td>
+                <td> Mixture/EM</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Mar. 27 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T4 (SVMs and Ethics) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 8. Mixture/EM</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Mar. 30 (M) </td>
+                <td>  </td>
+                <td> PCA</td>
+                <td> </td>
+                <td> </td>
+                <td> T5 (Clustering, EM, PCA) released</td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 1 (W) </td>
+                <td> PGMs </td>
+                <td> Topic Models</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 3 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 9. Dim Reduction / Bayes Nets</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 6 (M) </td>
+                <td>  </td>
+                <td> Graphical Models</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 8 (W) </td>
+                <td>  </td>
+                <td> Inference for BNs</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Apr. 10 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T5 (Clustering, EM, PCA) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 10. Inference, HMMs, Kalman filters</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 13 (M) </td>
+                <td>  </td>
+                <td> Linear BNs (HMMs)</td>
+                <td> </td>
+                <td> </td>
+                <td> T6 (Graphical Models and RL) released</td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 15 (W) </td>
+                <td>  </td>
+                <td> MDP, value/policy Iteration</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 17 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> 11. MDPs, RL</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 20 (M) </td>
+                <td> Reinforcement Learning </td>
+                <td> RL</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 22 (W) </td>
+                <td>  </td>
+                <td> Deep RL</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="hw">
+                <td> Apr. 24 (F) </td>
+                <td>  </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> T6 (Graphical Models and RL) due</td>
+            </tr>
+
+            <tr class="sec">
+                <td>  </td>
+                <td>  </td>
+                <td> </td>
+                <td> Midterm 2 Review</td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="">
+                <td> Apr. 27 (M) </td>
+                <td>  </td>
+                <td> Interpretability or Learning Theory</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr class="exam">
+                <td> Apr. 29 (W) </td>
+                <td>  </td>
+                <td> Midterm 2</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            </tbody></table>
     </div>
 </section>
 
