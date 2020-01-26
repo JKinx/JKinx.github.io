@@ -99,11 +99,11 @@ ul.lists li {
     font-size: 1.1em;
     list-style: none;
     margin: 0; }
-.link, ul.lists li a {
+p.link a, ul.lists li a {
     color: inherit;
     border-bottom: 1px dotted #000; }
-.link, ul.lists li a:hover {
+p.link a:hover, ul.lists li a:hover {
     text-decoration: none;
     border-bottom: 1px solid #000; }
-.link, ul.lists li.inactive {
+p.link a:inactive, ul.lists li.inactive {
     color: #ccc; }
