@@ -80,12 +80,10 @@ footer.footer {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300; }
-.text p {
+.text p, .text li {
     font-size: 1.1em;
     line-height: 150%; }
 .text .announcement + ul li {
-    font-size: 1.1em;
-    line-height: 150%;
     margin-bottom: 0.5em}
 
 .announcement {
