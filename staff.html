@@ -29,19 +29,25 @@ weight: 0
     <div class="main">
         <h2 class="title">People</h2>
         <h3>Instructor</h3>
-        <ul>
-            <li>Finale Doshi-Velez </li>
+        <ul class="lists">
+            <li>
+                <a href="mailto:finale@seas.harvard.edu">Finale Doshi-Velez</a>
+            </li>
         </ul>
 
         <h3>Course Manager</h3>
-        <ul>
-            <li>Kasey LeBlanc</li>
+        <ul class="lists">
+            <li>
+                <a href="mailto:kasey_leblanc@g.harvard.edu">Kasey LeBlanc</a>
+            </li>
         </ul>
 
         <h3>Teaching Fellows</h3>
-        <ul>
+        <ul class="lists">
             {% for ta in site.data.all.tas %}
-            <li> {{ta.name}} </li>
+            <li>
+                {{ta.name}}
+            </li>
             {% endfor %}
         </ul>
 
