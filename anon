@@ -1,0 +1,12 @@
+var currURL = window.location.href;
+
+var regrade_request = currURL.includes("regrade_requests")
+
+if (regrade_requests){
+    var table = document.getElementById("DataTables_Table_0"),
+    rows = table.rows;
+
+    for (var j = 0; j < rows.length; j++) {
+        rows[j].deleteCell(0);
+    }
+}
